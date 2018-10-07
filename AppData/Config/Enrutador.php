@@ -4,7 +4,7 @@
  * User: Lenovo
  * Date: 17/09/2018
  * Time: 08:01 PM
- */s
+ */
 
 namespace AppData\Config;
 

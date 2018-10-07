@@ -5,28 +5,24 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
             <!-- Slide One - Set the background image for this slide in the line below -->
-            <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>First Slide</h3>
-                    <p>This is a description for the first slide.</p>
-                </div>
+            <div class="carousel-item active" style="background-image">
+                <img  width="1350px" height="420px" src="<?php echo URL?>Public/imagenes/img1.jpg">
             </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Second Slide</h3>
-                    <p>This is a description for the second slide.</p>
-                </div>
+                <img  width="1350px" height="420px" src="<?php echo URL?>Public/imagenes/img2.jpg">
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Third Slide</h3>
-                    <p>This is a description for the third slide.</p>
-                </div>
+                <img  width="1350px" height="420px" src="<?php echo URL?>Public/imagenes/img3.jpg">
+            </div>
+            <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+                <img  width="1350px" height="420px" src="<?php echo URL?>Public/imagenes/img4.jpg">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -43,9 +39,9 @@
 <!-- Page Content -->
 <div class="container">
 
-    <h1 class="my-4">Welcome to Modern Business</h1>
+    <h1 class="my-4">Descubre Valle de Bravo</h1>
 
-    <!-- Marketing Icons Section -->
+    <!-- Marketing Icons Section
     <div class="row">
         <div class="col-lg-4 mb-4">
             <div class="card h-100">
@@ -80,8 +76,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- /.row -->
+
 
     <!-- Portfolio Section -->
     <h2>Portfolio Heading</h2>
