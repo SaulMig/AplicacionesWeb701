@@ -86,23 +86,23 @@
     <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="" alt=""></a>
+                <a href="#"><img class="card-img-top" src="<?php echo URL?>Public/imagenes/la peña.jpg" "></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="#">Project One</a>
+                        <a href="#">Mirador La Peña</a>
                     </h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+                    <p class="card-text">Escenario de gran altura y poca vegetación que actualmente es un mirador natural donde se puede obtener la mejor vistadel lago y la ciudad típica, este se encuentra en una pequeña península en la presa de Valle de Bravo.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <a href="#"><img class="card-img-top" src="<?php echo URL?>Public/imagenes/monarca.jpg" alt=""></a>
                 <div class="card-body">
                     <h4 class="card-title">
-                        <a href="#">Project Two</a>
+                        <a href="#">Santuario de la Mariposa Monarca</a>
                     </h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    <p class="card-text">El santuario Piedra Herrada recibe cada año a la mariposa monarca que viaja desde Canadá para pasar el invierno en los bosques de México.</p>
                 </div>
             </div>
         </div>
