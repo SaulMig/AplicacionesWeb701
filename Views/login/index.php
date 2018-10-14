@@ -8,28 +8,35 @@
         <h1 class="form-heading">login Form</h1>
         <div class="login-form">
             <div class="main-div">
-                <div class="panel">
-                    <h3>Inicio de Sesión</h3>
-                    <p>Por favor ingresa tu e-mail y contraseña</p>
-                </div>
-                <form id="Login">
-
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
-
+                <form method="post" action="<?php echo URL?>login/verify">
+                    <div class="panel">
+                        <h3>Inicio de Sesión</h3>
+                        <p>Por favor ingresa tu e-mail y contraseña</p>
+                    </div>
+                    <div class='form-group'>
+                        <div class='input-field col s12'>
+                            <input class='validate' type='email' name='email' id='email'>
+                        </div>
                     </div>
 
-                    <div class="form-group">
-
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
-
+                    <div class='form-group'>
+                        <div class='input-field col s12'>
+                            <input class='validate' type='password' name='password' id='password'>
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
 
+                    <br />
+                    <center>
+                        <div class='row'>
+                            <button type='submit' name='btn_login'><b>Entrar</b></button>
+                        </div>
+
+                    </center>
                 </form>
             </div>
-            <p class="botto-text"> Designed by Sunil Rajput</p>
-        </div></div></div>
+        </div>
+    </div>
+</div>
 
 <script type="text/javascript">
     $(document).ready(function(){
