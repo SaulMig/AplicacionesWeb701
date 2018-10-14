@@ -30,6 +30,7 @@ class Template
             <!-- Custom styles for this template -->
             <link type="text/css" href="<?php echo URL?>Public/css/shop-homepage.css" rel="stylesheet">
             <link type="text/css" href="<?php echo URL?>Public/css/login.css" rel="stylesheet">
+            <link type="text/css" href="<?php echo URL?>Public/css/style.css" rel="stylesheet">
 
             <!-- Bootstrap core JavaScript -->
             <script type="text/javascript" src="<?php echo URL?>Public/jquery/jquery.min.js"></script>
@@ -45,25 +46,78 @@ class Template
             {?>
 
 
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top align-content-center" >
                 <div class="container">
                     <a href="<?php echo URL?>inicio"><img src="<?php echo URL?>Public/imagenes/logo(2).png"></a>
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo URL?>inicio">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo URL?>inicio">Services</a>
-                            </li>
+                    <nav class="navbar navbar-expand-md navbar-light bg-light">
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Informacion turistica
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="http://google.com">Google</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Submenu</a></li>
+                                                <li><a class="dropdown-item" href="#">Submenu0</a></li>
+                                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                                                        <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu 2</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                                                        <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Directorio Comercial
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="http://google.com">Google</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Submenu</a></li>
+                                                <li><a class="dropdown-item" href="#">Submenu0</a></li>
+                                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                                                        <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu 2</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                                                        <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                        <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a class="nav-link" href="<?php echo URL?>login">Login</a>
                             </li>
                         </ul>
-                    </div>
                 </div>
                 <?php }?>
             </nav>
