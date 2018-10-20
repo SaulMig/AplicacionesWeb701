@@ -9,9 +9,9 @@
 namespace AppData\Model;
 
 
-class ReservacionesCliente
+class Actividades
 {
-    private $tabla = "reservaciones";
+    private $tabla = "actividades_recreativas";
     private $id_reservacion;
     private $clave_reserva;
     private $id_cliente;
@@ -55,7 +55,7 @@ class ReservacionesCliente
 
     function getAll()
     {
-        $sql = "select * from tipos_habitacion";
+        $sql = "select * from actividades_recreativas";
         $datos = $this->conexion->QueryResultado($sql);
         return $datos;
     }

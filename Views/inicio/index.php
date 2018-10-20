@@ -14,7 +14,7 @@
             </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-                <img  width="1350px" height="420px" src="<?php echo URL?>Public/imagenes/img2.jpg">
+                <img  width="1350px" height="420px" src="<?php echo URL?>Public/imagenes/img5.png">
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
@@ -22,7 +22,7 @@
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-                <img  width="1350px" height="420px" src="<?php echo URL?>Public/imagenes/img4.jpg">
+                <img  width="1350px" height="420px" src="<?php echo URL?>Public/imagenes/img2.jpg">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -40,46 +40,6 @@
 <div class="container">
 
     <h1 class="my-4">Descubre Valle de Bravo</h1>
-
-    <!-- Marketing Icons Section
-    <div class="row">
-        <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-                <h4 class="card-header">Card Title</h4>
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-                <h4 class="card-header">Card Title</h4>
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-                <h4 class="card-header">Card Title</h4>
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!-- /.row -->
-
-
     <!-- Portfolio Section -->
     <h2>Portfolio Heading</h2>
 
@@ -186,15 +146,6 @@
             <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
         </div>
     </div>
-
-    <div id="sfc115nc6jtryks9eguehmmxrhflasgteja"></div><script type="text/javascript" src="https://counter5.wheredoyoucomefrom.ovh/private/counter.js?c=115nc6jtryks9eguehmmxrhflasgteja&down=async" async></script>
-    <br><a href="https://www.contadorvisitasgratis.com">contador de visitas para tumblr</a>
-    <noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para tumblr">
-            <img src="https://counter5.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=115nc6jtryks9eguehmmxrhflasgteja" border="0" title="contador de visitas para tumblr" alt="contador de visitas para tumblr"></a>
-    </noscript>
-    <a href="https://www.contadorvisitasgratis.com" title="contador de visitas para tumblr">
-        <img src="https://counter5.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=115nc6jtryks9eguehmmxrhflasgteja" border="0" title="contador de visitas para tumblr" alt="contador de visitas para tumblr"></a>
-
 
 </div>
 <!-- /.container -->

@@ -1,9 +1,9 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Lenovo
- * Date: 17/09/2018
- * Time: 08:01 PM
+ * User: JAZMIN
+ * Date: 10/05/2018
+ * Time: 12:56 PM
  */
 
 namespace AppData\Config;
@@ -39,7 +39,7 @@ class Request
                 $this->controlador = "empleado_bienvenido";
                 $this->metodo = "index";
             }
-      }
+        }
       else
           if (isset($_GET['url'])?stristr($_GET['url'],'login'):false)
         {
@@ -53,9 +53,9 @@ class Request
             else
                 $this->metodo = "index";
         }
-        else if (isset($_GET['url'])?stristr($_GET['url'],'ReservacionesCliente'):false)
+        else if (isset($_GET['url'])?stristr($_GET['url'],'Actividades'):false)
         {
-            $this->controlador="ReservacionesCliente";
+            $this->controlador="Actividades";
 
             $this->metodo=stristr($_GET['url'],'consulta')?"consulta":"index";
         }
