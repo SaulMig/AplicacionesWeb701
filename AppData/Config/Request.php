@@ -53,12 +53,18 @@ class Request
             else
                 $this->metodo = "index";
         }
-        else if (isset($_GET['url'])?stristr($_GET['url'],'Actividades'):false)
-        {
-            $this->controlador="Actividades";
+          else if (isset($_GET['url'])?stristr($_GET['url'],'Actividadesrecreativas'):false)
+          {
+              $this->controlador="Actividadesrecreativas";
 
-            $this->metodo=stristr($_GET['url'],'consulta')?"consulta":"index";
-        }
+              $this->metodo=stristr($_GET['url'],'consulta')?"consulta":"index";
+          }
+          else if (isset($_GET['url'])?stristr($_GET['url'],'Actividadesdeportivas'):false)
+          {
+              $this->controlador="Actividadesdeportivas";
+
+              $this->metodo=stristr($_GET['url'],'consulta')?"consulta":"index";
+          }
         else
         {
             $this->controlador="inicio";

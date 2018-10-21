@@ -22,7 +22,7 @@ while($row=mysqli_fetch_array($datos))
                     Telefono {$row['telefono']}
                     <br>
                     <br>
-                    Correo  {$row['correo']}
+                    Correo  <a href='{$row['correo']}'>{$row['correo']}</a>
                     <br>
                     <br>
                     

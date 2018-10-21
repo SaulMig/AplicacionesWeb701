@@ -57,8 +57,8 @@ class Template
                                         Actividades
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="<?php echo URL?>Actividades">Recreativas</a></li>
-                                        <li><a class="dropdown-item" href="#">Deportivas</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo URL?>Actividadesrecreativas">Recreativas</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo URL?>Actividadesdeportivas">Deportivas</a></li>
                                     </ul>
                                 </li>
                             </ul>

@@ -9,7 +9,7 @@
 namespace AppData\Model;
 
 
-class Actividades
+class Actividadesrecreativas
 {
     private $tabla = "actividades_recreativas";
     private $id_reservacion;

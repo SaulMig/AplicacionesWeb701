@@ -9,13 +9,13 @@
 namespace AppData\Controller;
 
 
-class actividadesController
+class actividadesrecreativasController
 {
     private $habitaciones,$tipos_habitacion,$estado_habitaciones;
 
     public function __construct()
     {
-        $this->habitaciones= new \AppData\Model\Actividades();
+        $this->habitaciones= new \AppData\Model\Actividadesrecreativas();
     }
 
     public function index()
