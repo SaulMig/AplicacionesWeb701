@@ -38,7 +38,27 @@
 
 <!-- Page Content -->
 <div class="container">
-
+    <?php
+    if(!isset($_SESSION['id_tipo_usuario'])){ ?>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            swal({
+                    title:"Aun no haz iniciado sesión",
+                    text:"Ingresar ahora?",
+                    type:"warning",
+                    closeOnConfirm:false,
+                    showCancelButton:true,
+                    cancelButtonClass: "btn-danger",
+                    confirmButtonClass:"btn-success"
+                },
+                function (isConfirm) {
+                    if (isConfirm) {
+                        window.location.href="<?php URL ?>Login";
+                    })
+        },4000)
+        })
+    </script>
+    <?php } ?>
     <h1 class="my-4">Descubre Valle de Bravo</h1>
     <!-- Portfolio Section -->
     <h2>Portfolio Heading</h2>

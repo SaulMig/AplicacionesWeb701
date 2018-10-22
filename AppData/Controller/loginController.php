@@ -42,6 +42,21 @@ class loginController
                 }
             }
         }
+    public function guarda(){
+        if(isset($_POST)){
+            $this->login->set("nombre",$_POST['nombre']);
+            $this->login->set("ap_p",$_POST['ap_p']);
+            $this->login->set("ap_m",$_POST['ap_m']);
+            $this->login->set("id_sexo",$_POST['id_sexo']);
+            $this->login->set("id_tipo_usuario",$_POST['id_tipo_usuario']);
+            $this->login->insertaUsuario();
+            ?>
+            <script type="text/javascript">
+                window.location.href= <?php echo URL?>login
+            </script>
+            <?php
+        }
+    }
     public function logout()
         {
             session_destroy();

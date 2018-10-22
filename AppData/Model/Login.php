@@ -35,4 +35,8 @@ class Login
         $dato=$this->conexion->QueryResultado($sql);
         return $dato;
     }
+    public function insertaUsuario(){
+        $sql="INSERT INTO persona(nombre,ap_p,ap_m,id_sexo,id_tipo_usuario)";
+        $this->conexion->QuerySimple($sql);
+    }
 }
