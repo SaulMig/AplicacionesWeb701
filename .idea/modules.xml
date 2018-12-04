@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Aplicaciones-web/.idea/Aplicaciones-Web.iml" filepath="$PROJECT_DIR$/../Aplicaciones-web/.idea/Aplicaciones-Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Aplicaciones-web/.idea/Aplicaciones-web.iml" filepath="$PROJECT_DIR$/../Aplicaciones-web/.idea/Aplicaciones-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/AplicacionesWeb701.iml" filepath="$PROJECT_DIR$/.idea/AplicacionesWeb701.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Gestion_proyectos/.idea/Gestion_proyectos.iml" filepath="$PROJECT_DIR$/../Gestion_proyectos/.idea/Gestion_proyectos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Gestion_proyectos/.idea/Gestion_proyectos.iml" filepath="$PROJECT_DIR$/../Gestion_proyectos/.idea/Gestion_proyectos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HP_M/.idea/HP_M.iml" filepath="$PROJECT_DIR$/../HP_M/.idea/HP_M.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Prueba_ISC601/.idea/Prueba_ISC601.iml" filepath="$PROJECT_DIR$/../Prueba_ISC601/.idea/Prueba_ISC601.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Turismo-DG/.idea/Turismo-DG.iml" filepath="$PROJECT_DIR$/../Turismo-DG/.idea/Turismo-DG.iml" />
     </modules>
   </component>
 </project>

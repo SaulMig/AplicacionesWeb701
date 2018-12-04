@@ -25,11 +25,9 @@ class actividadesrecreativasController
         return $datos;
     }
 
-    public function consulta()
+    public function consulta_1()
     {
-        $this->habitaciones->set('id_inicio',$_GET["id_inicio"]);
-        $this->habitaciones->set('id_final',$_GET["id_final"]);
-        $datos2=$this->habitaciones->getAllHabitaciones();
+        $datos2=$this->habitaciones->getAllRecreativas();
         $datos1[0]=$datos2;
         return $datos1;
     }

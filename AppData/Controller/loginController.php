@@ -33,7 +33,7 @@ class loginController
                 if (mysqli_num_rows($datos) > 0) {
                     $datos=mysqli_fetch_assoc($datos);
                     $_SESSION["username"]=$datos["email"];
-                    header("Location:" . URL . "Empleado_bienvenido");
+                    /*header("Location:" . URL . "Empleado_bienvenido");*/
 
                 }
                 else {
@@ -42,28 +42,6 @@ class loginController
                 }
             }
         }
-    public function guardar()
-    {
-        if (isset($_POST)) {
-            $this->login->set("nombre", $_POST['nombre']);
-            $this->login->set("ap_p", $_POST['ap_p']);
-            $this->login->set("ap_m", $_POST['ap_m']);
-            $this->login->set("id_sexo", $_POST['id_sexo']);
-            $this->login->set("id_tipo_usuario", $_POST['id_tipo_usuario']);
-            $this->login->set("nickname", $_POST['nickname']);
-            $this->login->set("contraseña", $_POST['contraseña']);
-            $this->login->guardar();
-            $dato = $this->login->getOne();
-            if (\mysqli_num_rows($dato) > 0) {
-                ?>
-                <!--$this->login->insertaUsuario();-->
-                <script type="text/javascript">
-                    window.location.href = <?php echo URL?>login
-                </script>
-                <?php
-            }
-        }
-    }
     public function logout()
         {
             session_destroy();

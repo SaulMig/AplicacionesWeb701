@@ -3,8 +3,8 @@ $datos=$datos[0];
 $url=URL;
 while($row=mysqli_fetch_array($datos))
     echo "
+
      
-     <div class=\"col-lg-8 col-sm-6 portfolio-item\">
             <div class=\"card h-100\">
                 <a href=\"#\"><img src=\"{$url}Public/imagenes /logo.png\" height=270\" width = \"300\"></a>
                 <div class=\"card-body\">
@@ -25,12 +25,10 @@ while($row=mysqli_fetch_array($datos))
                     Correo  <a href='{$row['correo']}'>{$row['correo']}</a>
                     <br>
                     <br>
-                    
-                    
-                   Ubicacion {$row['ubicacion']}
+                    Ubicacion {$row['ubicacion']}
                     </p>
                 </div>
             </div>
-        </div>
+       
 ";
 ?>

@@ -25,19 +25,38 @@ class Template
             <link type="text/css" href="<?php echo URL?>Public/css/bootstrap.min.css" rel="stylesheet">
             <link type="text/css" href="<?php echo URL?>Public/css/modern-business.css" rel="stylesheet">
             <link type="text/css" href="<?php echo URL?>Public/css/dashboard.css" rel="stylesheet">
-            <link type="text/css" href="<?php echo URL?>Public/css/sweetalert.css" rel="stylesheet">
 
 
             <!-- Custom styles for this template -->
             <link type="text/css" href="<?php echo URL?>Public/css/shop-homepage.css" rel="stylesheet">
             <link type="text/css" href="<?php echo URL?>Public/css/login.css" rel="stylesheet">
             <link type="text/css" href="<?php echo URL?>Public/css/style.css" rel="stylesheet">
+            <link type="text/css" href="<?php echo URL ?>Public/css/shop-homepage.css" rel="stylesheet">
+            <link type="text/css" href="<?php echo URL ?>Public/css/empleado.css" rel="stylesheet">
+            <link type="text/css" href="<?php echo URL ?>Public/css/login.css" rel="stylesheet">
+            <link type="text/css" href="<?php echo URL ?>Public/css/style3.css" rel="stylesheet">
+            <link type="text/css" href="<?php echo URL ?>Public/css/formato.css" rel="stylesheet">
+            <link type="text/css" href="<?php echo URL ?>Public/css/sweetalert.css" rel="stylesheet">
+            <link type="text/css" href="<?php echo URL ?>Public/css/boostrap.css" rel="stylesheet">
+            <link type="text/css" href="<?php echo URL ?>Public/css/glyphicons.css" rel="stylesheet">
+
+
 
 
             <!-- Bootstrap core JavaScript -->
             <script type="text/javascript" src="<?php echo URL?>Public/jquery/jquery.min.js"></script>
             <script type="text/javascript" src="<?php echo URL?>Public/js/bootstrap.bundle.min.js"></script>
-            <script type="text/javascript" src="<?php echo URL?>Public/jquery/sweetalert.min.js"></script>
+
+            <script type="text/javascript" src="<?php echo URL ?>Public/js/jquery-1.11.2.min.js"></script>
+            <script type="text/javascript" src="<?php echo URL ?>Public/js/bootstrap.js"></script>
+            <script type="text/javascript" src="<?php echo URL ?>Public/js/jquery.validate.min.js"></script>
+            <script type="text/javascript" src="<?php echo URL ?>Public/js/sweetalert.min.js"></script>
+            <script type="text/javascript" src="<?php echo URL ?>Public/js/uifilter.js"></script>
+            <script type="text/javascript" src="<?php echo URL ?>Public/js/highcharts.js"></script>
+
+            <link type="text/css" href="<?php echo URL ?>Public/css/clockpicker.css" rel="stylesheet">
+            <link type="text/css" href="<?php echo URL ?>Public/css/bootstrap-clockpicker.css" rel="stylesheet">
+            <script type="text/javascript" src="<?php echo URL ?>Public/js/clockpicker.js"></script>
 
         </head>
 
@@ -60,7 +79,7 @@ class Template
                                         Actividades
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="<?php echo URL?>Actividadesrecreativas">Recreativas</a></li>
+                                        <li><a class="dropdown-item" href="<?php echo URL?>Actividadesrecreativas/tabla">Recreativas</a></li>
                                         <li><a class="dropdown-item" href="<?php echo URL?>Actividadesdeportivas">Deportivas</a></li>
                                     </ul>
                                 </li>
@@ -121,15 +140,55 @@ class Template
         ?>
             <main>
                 <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-                <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
+                <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#menu-toggle" id="menu-toggle">Menu</a>
                 <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
                 <ul class="navbar-nav px-3">
                     <li class="nav-item text-nowrap">
                         <a class="nav-link" href="<?php echo URL?>login/logout">Sign out</a>
                     </li>
                 </ul>
-            </nav>
+                </nav>
+                <div id="wrapper">
+                    <div id="sidebar-wrapper">
+                        <ul class="sidebar-nav">
+
+                            <li class="sidebar-brand">
+                                <a href="<?php echo URL ?>Empleado_bienvenido">Inicio</a>
+                            </li>
+
+                            <li>
+                                <a href="<?php echo URL ?>Actividades/Tipo1">Actividades Recreativas</a>
+                            </li>
+
+                            <li>
+                                <a href="<?php echo URL ?>">Actividades Deportivas</a>
+                            </li>
+
+                            <li>
+                                <a href="<?php echo URL ?>">Restaurantes & Cafeterias</a>
+                            </li>
+
+                            <li>
+                                <a href="<?php echo URL ?>">Bares</a>
+                            </li>
+
+                            <li>
+                                <a href="<?php echo URL ?>">Hospedaje</a>
+                            </li>
+
+                            <li>
+                                <a href="<?php echo URL ?>">Shoping & Servicios</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </main>
+        <script>
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+        </script>
 
 
         <!--Import jQuery before materialize.js-->

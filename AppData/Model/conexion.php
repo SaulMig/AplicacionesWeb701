@@ -28,8 +28,19 @@ class conexion
         return $datos;
     }
 
+    public function proc($a,$b,$c,$d,$e,$f,$g,$h,$i,$j)
+    {
+        $sql="insert into datos(id_tiposec,titulo,descripcion,hora_inicio,hora_fin,telefono,correo,pagina,ubicacion,img) values(?,?,?,?,?,?,?,?,?,?)";
+        $stm=$this->conexion->prepare($sql) or die (mysqli_error($this->conexion));
+        $stm->bind_param('sssssss',$a,$b,$c,$d,$e,$f,$g,$h,$i,$j);
+        $stm->execute();
+
+    }
+
     public function __destruct()
     {
         $this->conexion->close();
     }
+
+
 }

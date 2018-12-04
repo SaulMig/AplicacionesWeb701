@@ -57,13 +57,7 @@ class Request
           {
               $this->controlador="Actividadesrecreativas";
 
-              $this->metodo=stristr($_GET['url'],'consulta')?"consulta":"index";
-          }
-          else if (isset($_GET['url'])?stristr($_GET['url'],'Actividadesdeportivas'):false)
-          {
-              $this->controlador="Actividadesdeportivas";
-
-              $this->metodo=stristr($_GET['url'],'consulta')?"consulta":"index";
+              $this->metodo=stristr($_GET['url'],'consulta_1')?"consulta_1":"index";
           }
         else
         {

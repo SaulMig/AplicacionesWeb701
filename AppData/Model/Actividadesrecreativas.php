@@ -11,7 +11,7 @@ namespace AppData\Model;
 
 class Actividadesrecreativas
 {
-    private $tabla = "actividades_recreativas";
+    private $tabla = "datos";
     private $id_reservacion;
     private $clave_reserva;
     private $id_cliente;
@@ -55,21 +55,14 @@ class Actividadesrecreativas
 
     function getAll()
     {
-        $sql = "select * from actividades_recreativas";
+        $sql = "select * from datos";
         $datos = $this->conexion->QueryResultado($sql);
         return $datos;
     }
 
-    function getAllHabitaciones()
+    function getAllRecreativas()
     {
-        $sql = "SELECT habitaciones.id_habitacion, habitaciones.num_habitacion, habitaciones.descripcion_hab, 				
-                                tipos_habitacion.tipo_ha, tipos_habitacion.maximo_personas,tipos_habitacion.precio
-                                FROM habitaciones, tipos_habitacion, reservaciones, asigna_reservaciones
-                                WHERE reservaciones.id_reservacion=asigna_reservaciones.id_reservacion
-		AND asigna_reservaciones.id_habitacion=habitaciones.id_habitacion
-        AND habitaciones.id_tipoh=tipos_habitacion.id_tipoh
-		AND reservaciones.fecha_llegada not BETWEEN '2018-10-08' and '2018-10-12'
-		AND reservaciones.fecha_salida not BETWEEN '2018-10-08' and '2018-10-12'";
+        $sql = "SELECT * from datos ";
         $datos = $this->conexion->QueryResultado($sql);
         return $datos;
     }

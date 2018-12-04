@@ -11,14 +11,17 @@ namespace AppData\Controller;
 
 class Empleado_bienvenidoController
 {
-
+    private $habitaciones,$tipos_habitacion,$estado_habitaciones;
     public function __construct()
     {
-
+        $this->habitaciones= new \AppData\Model\Empleado_Bienvenido();
     }
 
     public function index()
     {
+        $datos1=$this->habitaciones->getAll();
+        $datos[0]=$datos1;
+        return $datos;
     }
 
     public function crear(){
@@ -36,6 +39,11 @@ class Empleado_bienvenidoController
     public function actualizar($id)
     {
 
+    }
+    public function print_pdf()
+    {
+        $datos=$this->habitaciones->getAll();
+        return $datos;
     }
 
 }

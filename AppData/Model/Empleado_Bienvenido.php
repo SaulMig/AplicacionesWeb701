@@ -37,6 +37,9 @@ class Empleado_Bienvenido
 
     function getAll()
     {
+        $sql = "select * from datos";
+        $datos = $this->conexion->QueryResultado($sql);
+        return $datos;
     }
 
     function getOne($id)
