@@ -26,7 +26,7 @@
                     </div>
                         <div class='row'>
                             <button type='submit' name='btn_login' class="offset-lg-2"><b>Entrar</b></button>
-                            <button type="submit" name="btn_registro" class="offset-lg-2"><b>Registrar</b></button>
+
                         </div>
 
 

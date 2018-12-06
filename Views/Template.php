@@ -114,9 +114,7 @@ class Template
                             </ul>
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link " href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Mapa Turistico
-                                    </a>
+                                    <button  type="button" class="btn bg-transparent" data-toggle="modal" data-target="#modal_mapa">Mapa Turistico</button>
                                 </li>
                             </ul>
                         </div>
@@ -213,7 +211,28 @@ class Template
         </body>
         </html>
         </body>
+        <div class="modal" tabindex="-1" role="dialog" id="modal_mapa">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Mapa Turistico de Valle de Bravo</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15041.875604839568!2d-100.1296074638841!3d19.19848098544269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1544021107706" width="470" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
         </html>
         <?php
     }
+
+
 }
