@@ -23,39 +23,44 @@ class ActividadesController
 
     }
 
-    public function agregarrecreativas(){
+    public function crear()
+    {
 
         if($_POST)
         {
-            $nombre=$_FILES['imagen']['name'];
-            $tmp=$_FILES['imagen']['tmp_name'];
+
+            $nombre=$_FILES['image']['name'];
+            $tmp=$_FILES['image']['tmp_name'];
             $bytes=file_get_contents($tmp);
 
-            $this->actividades->set('id_tiposec',$_POST["id_tiposec"]);
             $this->actividades->set('titulo',$_POST["titulo"]);
             $this->actividades->set('descripcion',$_POST["descripcion"]);
+            $this->actividades->set('img',$bytes);
             $this->actividades->set('hora_inicio',$_POST["hora_inicio"]);
             $this->actividades->set('hora_fin',$_POST["hora_fin"]);
             $this->actividades->set('telefono',$_POST["telefono"]);
             $this->actividades->set('correo',$_POST["correo"]);
             $this->actividades->set('pagina',$_POST["pagina"]);
             $this->actividades->set('ubicacion',$_POST["ubicacion"]);
-            $this->actividades->set('img',$bytes);
-            $this->actividades->add();
-            print_r($_POST);
-            header("Location:".URL."Tipo1");
-        }else{
+            $datos[1]=false;
+            if(mysqli_num_rows($this->actividades->verify())==0) {
 
-            $datos1=$this->actividades->getAllTipo1();
-
-            $datos[0]=$datos1;
-
+                $this->actividades->add();
+                header("Location:".URL."Actividades/Tipo1");
+                $datos[1]=true;
+            }
+            $datos[0]=$this->actividades->getAll();
+            header("Location:".URL."Actividades/Tipo1");
             return $datos;
         }
     }
+
     public function eliminar($id)
     {
-
+        $this->actividades->delete($id[0]);
+        $datos1=$this->actividades->getAll();
+        $datos[0]=$datos1;
+        return $datos;
     }
     public function modificar($id)
     {

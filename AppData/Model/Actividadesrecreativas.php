@@ -11,31 +11,17 @@ namespace AppData\Model;
 
 class Actividadesrecreativas
 {
-    private $tabla = "datos";
-    private $id_reservacion;
-    private $clave_reserva;
-    private $id_cliente;
-    private $fecha_reserva;
-    private $fecha_llegada;
-    private $fecha_salida;
-    private $id_estador=63;
-    private $no_personas;
-    private $num_habitacion;
-    private $descripcion_hab;
-    private $id_tipoh;
-    private $id_estadoh=60;
-
-    private $id_inicio;
-    private $id_final;
-
+    private $tabla='datos';
+    private $img;
+    private $id, $id_tiposec, $titulo, $descripcion, $hora_inicio, $hora_fin, $telefono,$correo,$pagina,$ubicacion;
     function __construct()
     {
-        $this->conexion = new conexion();
+        $this->conexion=new conexion();
     }
 
-    public function set($atributo, $valor)
+    public function set($atributo,$valor)
     {
-        $this->$atributo = $valor;
+        $this->$atributo=$valor;
     }
 
     public function get($atributo)
@@ -44,27 +30,33 @@ class Actividadesrecreativas
     }
 
     function add()
-
     {
-        $sql="call NuevaReserva (
-         '{$this->clave_reserva}','{$this->id_cliente}','{$this->fecha_reserva}','{$this->fecha_llegada}',
-         '{$this->fecha_salida}','{$this->id_estador}')";
-        $this->conexion->QuerySimple($sql);
+        $stm=$this->conexion->proc(1,$this->titulo,$this->descripcion,$this->hora_inicio,$this->hora_fin,$this->telefono,$this->correo,$this->pagina,$this->ubicacion,$this->img);
+    }
 
+    function delete($id)
+    {
+        $sql="delete from {$this->tabla} where id_dato='{$id}'";
+        $this->conexion->QuerySimple($sql);
     }
 
     function getAll()
     {
-        $sql = "select * from datos";
+        $sql = "select * from datos where id_tiposec=1";
         $datos = $this->conexion->QueryResultado($sql);
         return $datos;
     }
 
-    function getAllRecreativas()
+    function getOne($id)
     {
-        $sql = "SELECT * from datos ";
-        $datos = $this->conexion->QueryResultado($sql);
-        return $datos;
+    }
+    function update()
+    {
+    }
+    function verify(){
+        $sql = "select * from {$this->tabla} where  titulo='{$this->titulo}' ";
+        $dato=$this->conexion->QueryResultado($sql);
+        return $dato;
     }
 
 

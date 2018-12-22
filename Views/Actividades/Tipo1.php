@@ -8,10 +8,9 @@
                 <h5>Actividades Recreativas</h5>
                 <div class="btn-toolbar mb-2 mb-md-0">
                     <div class="btn-group mr-2">
-                        <a class="nav-link btn btn-sm btn-outline-secondary" href="<?php echo URL ?>Actividades/agregarRecreativas">
-                            Agregar
-                        </a>
-                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target=".bd-example-modal-lg">Agregar Modal</button>
+                        <button type="button" class="nav-link btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#agregar">+</button>
+                        <a href="<?php echo URL?>Empleado_bienvenido/print_pdf" target="_blank" class="nav-link btn btn-sm btn-outline-secondary">PDF</a>
+                        <a href="#!" id="graficar_habitaciones" class="nav-link btn btn-sm btn-outline-secondary">Gráfica</a>
                     </div>
                 </div>
             </div>
@@ -27,102 +26,187 @@
 
     </div>
 </div>
+
+
 <!-- Modal -->
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+<div class="modal fade" id="agregar" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle" align="center">Agregar Nueva Actividad Recreativa</h5>
+                <h5 class="modal-title">Agregar Empleado</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-
             </div>
             <div class="modal-body">
-                <div class="row justify-content-md-center">
-                    <div class="col-md-8 order-md-1">
-                        <form class="needs-validation" novalidate>
-                            <div class="mb-3">
-                                <label for="imagen">Selecionar imagen</label>
-                                <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="imagen" name="imagen"required>
+                <form class="needs-validation"  id="save_emp" method="POST" action="<?php echo URL ?>Actividades/crear"  autocomplete="off" novalidate>
+                    <div class="form-row">
 
-                                    <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-                                    <div class="invalid-feedback" style="width: 100%;">Es nesesario selecionar una imagen</div>
-                                </div>
+                        <div class="form-group">
+                            <label for="titulo">Titulo</label>
+                            <input type="text" class="form-control" id="titulo" name="titulo" required>
+                            <div class="invalid-feedback">
+                                Ingresa un titulo
                             </div>
-                            <br>
+                        </div>
 
-                            <form class="form-signin" action="" method="post" id="actualizacion">
-                                <input type="hidden" name="id" id="id">
-                                <div class="form-group">
+                        <div class="form-group">
+                            <label for="descripcion">Descripcion</label>
+                            <input type="text" class="form-control" id="descripcion" name="descripcion" required>
+                            <div class="invalid-feedback">
+                                Ingresa una descripcion
+                            </div>
+                        </div>
 
-                                    <input type="text" class="form-control"
-                                           id="nombre" name="nombre"></input>
-                                    <label for="nombre">Titulo</label>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control"
-                                           id="edad" name="edad"></input>
-                                    <label for="edad">Descripcion</label>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="hora_inicio1" name="hora_inicio1"></input>
-                                    <label for="hora_inicio1">Hora inicio</label>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="hora_fin" name="hora_fin"></input>
-                                    <label for="hora_fin">Hora fin</label>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control"
-                                           id="Telefono" name="Telefono"></input>
-                                    <label for="Telefono">Telefono</label>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control"
-                                           id="Correo" name="Correo"></input>
-                                    <label for="Correo">Correo</label>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control"
-                                           id="Pagina" name="Pagina"></input>
-                                    <label for="Pagina">Pagina</label>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control"
-                                           id="ubicacion" name="ubicacion"></input>
-                                    <label for="ubicacion">Ubicacion</label>
-                                </div>
-                                <br>
+                        <div class="col-md-4 mb-3">
+                            <label for="hora_inicio">Hora inicio</label>
+                            <input type="time" class="form-control" id="hora_inicio" name="hora_inicio" required>
+                            <div class="invalid-feedback">
+                                Ingrese una hora
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <label for="hora_fin">Hora fin</label>
+                            <input type="time" class="form-control" id="hora_fin" name="hora_fin" required>
+                            <div class="invalid-feedback">
+                                Ingrese una hora
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Telefono</label>
+                            <input type="text" class="form-control" id="telefono" name="telefono" required>
+                            <div class="invalid-feedback">
+                                Ingresa un telefono
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo</label>
+                            <input type="text" class="form-control" id="correo" name="correo" required>
+                            <div class="invalid-feedback">
+                                Ingresa un correo
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pagina">Pagina</label>
+                            <input type="text" class="form-control" id="pagina" name="pagina" required>
+                            <div class="invalid-feedback">
+                                Ingresa una pagina
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ubicacion">Ubicacion</label>
+                            <input type="text" class="form-control" id="ubicacion" name="ubicacion" required>
+                            <div class="invalid-feedback">
+                                Ingresa una ubicacion
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="form-group">
+                            <label for="image">imagen</label>
+                            <input type="file" class="form-control" id="image" name="image" required>
+                            <div class="invalid-feedback">
+                                Ingresa una imagen
+                            </div>
+                        </div>
                     </div>
 
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button href="#!" class="btn btn-primary " id="enviar" data-id="" type="submit">Guardar</button>
+                    <div class="modal-footer">
+                        <button class="btn btn-success" type="submit" href="#!" id="save_emp_ok">Registrar</button>
+                        <button class="btn btn-success" type="submit" href="#!" id="update_emp_ok" data-dismiss="modal">Actualizar</button>
+                        <script type="text/javascript">$("#update_emp_ok").hide();</script>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-    <script type="text/javascript">
-
-
-       $('#hora_inicio1').clockpicker({
-            placement: 'top',
-            align: 'left',
-            donetext: 'Aceptar',
-            //twelvehour: true,
-            autoclose: true
-        });
-
-
-        $('#hora_fin').clockpicker({
-            placement: 'top',
-            align: 'left',
-            donetext: 'Aceptar',
-            //,,twelvehour: true,
-            autoclose: true
-        });
-    </script>
 </div>
+
+<div class="modal" tabindex="-1" role="dialog" id="modal_eliminar">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">¿Desea eliminar el registro?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="eliminar_ok" data-dismiss="modal" >
+                    Aceptar
+                </button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+
+
+                $("#body_table").on("click","a.btn_eliminar",function(){
+                    var id=$(this).data("id");
+                    var url='<?php echo URL?>Actividades/eliminar/'+id;
+                    $("#eliminar_ok").attr("url",url);
+                    $("#modal_eliminar").modal('show');
+                });
+                $("#eliminar_ok").click(function(){
+                    $.get($(this).attr("url"),function(res){
+                        $("#body_table").empty().append(res);
+                    });
+                });
+
+                $("#body_table").on("click","a.btn_modificar",function(){
+                    $("#save_emp_ok").hide();
+                    $("#update_emp_ok").show();
+                    var id=$(this).data("id");
+                    $.get("<?php echo URL?>Empleado_bienvenido/modificar/"+id,function(res){
+                        var datos=JSON.parse(res);
+                        $("#update_emp_ok").data("id",datos["id_persona"]);
+                        $("#Nombre").val(datos["Nombre"]);
+                        $("#Apellido_patern").val(datos["Apellido_patern"]);
+                        $("#Apellido_matern").val(datos["Apellido_matern"]);
+                        $("#email").val(datos["email"]);
+                        $("#pass").val(datos["pass"]);
+
+                        $("#agregar").modal('show');
+                    });
+                });
+                $("#update_emp_ok").click(function(){
+                    var id=$(this).data("id");
+                    $.post("<?php echo URL?>Empleado_bienvenido/actualizar/"+id,$("#save_emp").serialize(),function(res){
+                        $('#save_emp').find('input, select, textarea').val('');
+                        $("#body_table").empty().append(res);
+
+                        swal("Actualización completa", " ", "success");
+                    })
+                });
+
+                $("#graficar_habitaciones").click(function(){
+                    $.get("<?php echo URL?>Empleado_bienvenido/graficar",function(res){
+                        $("#modal_grafica .modal-content p").empty().append(res);
+                        $("#modal_grafica").modal('show');
+                    });
+                });
+
+            });
+        }, false);
+    })();
+
+</script>

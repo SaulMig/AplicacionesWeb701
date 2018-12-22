@@ -1,34 +1,29 @@
 <?php
-$datos=$datos[0];
-$url=URL;
-while($row=mysqli_fetch_array($datos))
-    echo "
 
-     
-            <div class=\"card h-100\">
-                <a href=\"#\"><img src=\"{$url}Public/imagenes /logo.png\" height=270\" width = \"300\"></a>
-                <div class=\"card-body\">
-                    <h3 class=\"card-title\">
-                        {$row['titulo']}
-                    </h3>
-                    <p class=\"card-text\">
-                    <h6>Descripcion</h6>
-                    {$row['descripcion']}
-                    <br>
-                    <br>
-                    Abrimos de {$row['hora_inicio']}hrs a {$row['hora_fin']}hrs
-                    <br>
-                    <br>
-                    Telefono {$row['telefono']}
-                    <br>
-                    <br>
-                    Correo  <a href='{$row['correo']}'>{$row['correo']}</a>
-                    <br>
-                    <br>
-                    Ubicacion {$row['ubicacion']}
-                    </p>
-                </div>
-            </div>
-       
-";
+$dato=$datos[0];
+while($row=mysqli_fetch_array($dato))
+{
+    echo "
+		<div class='col-sm'>
+			<div class='card' style='width: 18rem;'>"
+    ?><img class='card-img-top' alt='Card image cap' src='data:image/jpg; base64, <?php echo base64_encode($row[11]); ?>'/><?php echo"
+    	            <div class='card-body'>
+	              	<h5 class='card-title'>{$row[2]}</h5>	
+	              	<h5 class='card-title'>{$row[3]}</h5> 
+	              	<h5 class='card-title'>{$row[4]}</h5>  
+	              	<h5 class='card-title'>{$row[5]}</h5> 
+	              	<h5 class='card-title'>{$row[6]}</h5> 
+	              	<h5 class='card-title'>{$row[7]}</h5> 
+	              	<h5 class='card-title'>{$row[8]}</h5> 
+	              	<h5 class='card-title'>{$row[9]}</h5> 
+	              	<h5 class='card-title'>{$row[10]}</h5> 
+		          	<div>
+		             	<button type='button' class='btn btn-primary' data-toggle='modal' id='cut'  data-id='{$row[0]}'>Eliminar</button>
+		             	<button type='button' class='btn btn-primary' data-toggle='modal' id='out'  data-id='{$row[0]}'>Modificar</button>                
+		             </div> 		              		        
+	                </div>
+	         </div>
+        </div>";
+}
+
 ?>

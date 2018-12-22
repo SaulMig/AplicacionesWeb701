@@ -18,11 +18,8 @@ while($row=mysqli_fetch_array($dato))
 	              	<h5 class='card-title'>{$row[9]}</h5> 
 	              	<h5 class='card-title'>{$row[10]}</h5> 
 		          	<div>
-			          	<a href='".URL."tipos/eliminar/{$row[0]}' class='btn tooltipped' data-position='bottom' data-tooltip='Eliminarr'>Eliminar       		
-			          	</a>
-			          	<a href='".URL."tipos/modificar/{$row[0]}' class='btn'>
-			             	Modificar
-			            </a>
+			          	<a class='glyphicon glyphicon-remove btn_eliminar'  href='#!' data-id='{$row['id_dato']}'></a>
+			          	<a class='glyphicon glyphicon-refresh btn_modificar' href='#!' data-id='{$row['id_dato']}'></a>
 		        	</div> 		              		        
 	                </div>
 	         </div>

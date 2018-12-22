@@ -35,8 +35,10 @@ class Login
         $dato=$this->conexion->QueryResultado($sql);
         return $dato;
     }
-    public function insertaUsuario(){
-        $sql="INSERT INTO persona(nombre,ap_p,ap_m,id_sexo,id_tipo_usuario)";
-        $this->conexion->QuerySimple($sql);
+    public function recuperar()
+    {
+        $sql="SELECT pass FROM usuarios where email='crishobbes@gmail.com' and nombre='Cristian' and telefono='7223221534'";
+        $dato=$this->conexion->QueryResultado($sql);
+        return $dato;
     }
 }
