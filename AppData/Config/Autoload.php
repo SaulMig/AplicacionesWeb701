@@ -1,10 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Lenovo
- * Date: 17/09/2018
- * Time: 08:01 PM
- */
+
+
 namespace AppData\Config;
 
 
