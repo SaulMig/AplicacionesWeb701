@@ -4,12 +4,5 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Aplicaciones-Web" />
-    <orderEntry type="module" module-name="Gestion_proyectos" />
-    <orderEntry type="module" module-name="HP_M" />
-    <orderEntry type="module" module-name="Aplicaciones-web" />
-    <orderEntry type="module" module-name="Turismo-DG" />
-    <orderEntry type="module" module-name="Prueba_ISC601" />
-    <orderEntry type="module" module-name="Gestion_proyectos" />
   </component>
 </module>

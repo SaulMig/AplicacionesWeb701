@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e740e44c-9f64-45ca-8aad-6b48b3258f11" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Controller/exaController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Model/exa.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Public/css/login.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/animal/agregar.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/animal/print_pdf.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/exa/Index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/exa/agregar.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/exa/modificar.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/exa/tabla.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/tipos/Index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/tipos/agregar.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/tipos/print_pdf.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/tipos/tabla.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/.idea/Gestion_proyectos.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Controller/animalController.php" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Controller/animalController.php" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Controller/loginController.php" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Controller/loginController.php" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Controller/tiposController.php" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Controller/tiposController.php" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Model/Login.php" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Model/Login.php" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Model/animal.php" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Model/animal.php" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Model/conexion.php" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Model/conexion.php" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Model/tipos.php" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/AppData/Model/tipos.php" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Base_datos.txt" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Base_datos.txt" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Public/css/estilos.css" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Public/css/estilos.css" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/Template.php" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/Template.php" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/animal/index.php" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/animal/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/inicio/index.php" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/inicio/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/tipos/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/tipos/modificar.php" afterPath="$PROJECT_DIR$/../Aplicaciones-web/adogcatme/Views/tipos/modificar.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/AplicacionesWeb701.iml" afterPath="$PROJECT_DIR$/.idea/AplicacionesWeb701.iml" />
+      <change beforePath="$PROJECT_DIR$/AppData/Config/Autoload.php" afterPath="$PROJECT_DIR$/AppData/Config/Autoload.php" />
+      <change beforePath="$PROJECT_DIR$/AppData/Config/Enrutador.php" afterPath="$PROJECT_DIR$/AppData/Config/Enrutador.php" />
+      <change beforePath="$PROJECT_DIR$/Public/imagenes/la peña.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Public/imagenes/monarca.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Views/login/Registro.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/CivicosController.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/CivicosController.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/CulturalesController.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/CulturalesController.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/DeportivosController.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/DeportivosController.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/Empleado_bienvenidoController.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/Empleado_bienvenidoController.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/inicioController.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/inicioController.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Civicos.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Civicos.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/CivicosClient.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/CivicosClient.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Culturales.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Culturales.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/CulturalesClient.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/CulturalesClient.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Deportivos.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Deportivos.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/DeportivosClient.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/DeportivosClient.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Empleado_Bienvenido.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Empleado_Bienvenido.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/InicioClient.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/InicioClient.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/conexion.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/conexion.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Civicos/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Civicos/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Civicos/tabla.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Civicos/tabla.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/CivicosClient/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/CivicosClient/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Culturales/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Culturales/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/CulturalesClient/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/CulturalesClient/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Deportivos/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Deportivos/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/DeportivosClient/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/DeportivosClient/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Empleado_bienvenido/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Empleado_bienvenido/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Template.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Template.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/inicio/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/inicio/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/login/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/login/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/eventos.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/notas.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Prueba_ISC601/.idea/Prueba_ISC601.iml" afterPath="$PROJECT_DIR$/../Prueba_ISC601/.idea/Prueba_ISC601.iml" />
+      <change beforePath="$PROJECT_DIR$/../Prueba_ISC601/HP_M/AppData/Model/ReservacionesCliente.php" afterPath="$PROJECT_DIR$/../Prueba_ISC601/HP_M/AppData/Model/ReservacionesCliente.php" />
+      <change beforePath="$PROJECT_DIR$/../Prueba_ISC601/HP_M/Views/ReservacionesCliente/index.php" afterPath="$PROJECT_DIR$/../Prueba_ISC601/HP_M/Views/ReservacionesCliente/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Turismo-DG/AppData/Model/Login.php" afterPath="$PROJECT_DIR$/../Turismo-DG/AppData/Model/Login.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1377" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Gestion_proyectos" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e740e44c-9f64-45ca-8aad-6b48b3258f11" name="Default" comment="" />
+      <created>1545459336589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545459336589</updated>
+      <workItem from="1545459338113" duration="98000" />
+      <workItem from="1546448768274" duration="986000" />
+      <workItem from="1546449887114" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1092000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

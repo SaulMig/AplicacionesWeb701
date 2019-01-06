@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1be0f8a4-5126-483a-b9d4-8cb93d772ec4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/.idea/Gestion_proyectos.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/actividadesrecreativasController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Actividadesrecreativas.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Actividadesrecreativas/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Actividadesrecreativas/print_pdf.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Actividadesrecreativas/tabla.php" />
+      <change beforePath="$PROJECT_DIR$/../AplicacionesWeb701/.idea/AplicacionesWeb701.iml" afterPath="$PROJECT_DIR$/../AplicacionesWeb701/.idea/AplicacionesWeb701.iml" />
+      <change beforePath="$PROJECT_DIR$/../AplicacionesWeb701/AppData/Config/Autoload.php" afterPath="$PROJECT_DIR$/../AplicacionesWeb701/AppData/Config/Autoload.php" />
+      <change beforePath="$PROJECT_DIR$/../AplicacionesWeb701/AppData/Config/Enrutador.php" afterPath="$PROJECT_DIR$/../AplicacionesWeb701/AppData/Config/Enrutador.php" />
+      <change beforePath="$PROJECT_DIR$/../AplicacionesWeb701/Public/imagenes/la peña.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../AplicacionesWeb701/Public/imagenes/monarca.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../AplicacionesWeb701/Views/login/Registro.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../AplicacionesWeb701/index.php" afterPath="$PROJECT_DIR$/../AplicacionesWeb701/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/CivicosController.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/CivicosController.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/CulturalesController.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/CulturalesController.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/DeportivosController.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/DeportivosController.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/Empleado_bienvenidoController.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/Empleado_bienvenidoController.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/inicioController.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/inicioController.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Civicos.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Civicos.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/CivicosClient.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/CivicosClient.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Culturales.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Culturales.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/CulturalesClient.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/CulturalesClient.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Deportivos.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Deportivos.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/DeportivosClient.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/DeportivosClient.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Empleado_Bienvenido.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Empleado_Bienvenido.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/InicioClient.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/InicioClient.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/conexion.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/conexion.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Civicos/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Civicos/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Civicos/tabla.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Civicos/tabla.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/CivicosClient/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/CivicosClient/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Culturales/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Culturales/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/CulturalesClient/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/CulturalesClient/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Deportivos/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Deportivos/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/DeportivosClient/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/DeportivosClient/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Empleado_bienvenido/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Empleado_bienvenido/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/Template.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/Template.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/inicio/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/inicio/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/Views/login/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/Views/login/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/eventos.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/index.php" afterPath="$PROJECT_DIR$/../Gestion_proyectos/index.php" />
+      <change beforePath="$PROJECT_DIR$/../Gestion_proyectos/notas.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto_comision/Examen" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto_comision/Views/Refaccionarias/index.php" afterPath="$PROJECT_DIR$/../Proyecto_comision/Views/Refaccionarias/index.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Actividadesrecreativas.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppData/Model/Actividadesrecreativas.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="63" column="323" lean-forward="false" selection-start-line="63" selection-start-column="323" selection-end-line="63" selection-end-column="323" />
+              <folding>
+                <marker date="1546764030107" expanded="true" signature="637:955" ph="insert into $... " />
+                <marker date="1546764030107" expanded="true" signature="1102:1150" ph="delete from $... " />
+                <marker date="1546764030107" expanded="true" signature="1248:1286" ph="select * fro... datos" />
+                <marker date="1546764030107" expanded="true" signature="1423:1474" ph="select * fro... $" />
+                <marker date="1546764030107" expanded="true" signature="1665:1972" ph="update $... " />
+                <marker date="1546764030107" expanded="true" signature="1671:1972" ph="insert into $... " />
+                <marker date="1546764030107" expanded="true" signature="2112:2172" ph="select * fro... $" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Actividadesrecreativas/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="82" lean-forward="true" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabla.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Views/Actividadesrecreativas/tabla.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+              <folding>
+                <marker date="1546764052093" expanded="true" signature="96:140" ph="..." />
+                <marker date="1546764052093" expanded="true" signature="126:139" ph="..." />
+                <marker date="1546764052093" expanded="true" signature="332:1114" ph="..." />
+                <marker date="1546764052093" expanded="true" signature="332:1131" ph="..." />
+                <marker date="1546764052093" expanded="true" signature="332:1146" ph="..." />
+                <marker date="1546764052093" expanded="true" signature="809:904" ph="..." />
+                <marker date="1546764052093" expanded="true" signature="809:984" ph="..." />
+                <marker date="1546764052093" expanded="true" signature="809:1063" ph="..." />
+                <marker date="1546764052093" expanded="true" signature="809:1114" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enrutador.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppData/Config/Enrutador.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modificar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Actividadesrecreativas/modificar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="69" column="120" lean-forward="false" selection-start-line="69" selection-start-column="120" selection-end-line="69" selection-end-column="120" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actividadesrecreativasController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppData/Controller/actividadesrecreativasController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>btn_login</find>
+      <find>login/</find>
+      <find>login</find>
+      <find>menusito</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Proyecto_comision" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/../Aplicaciones-Web/AppData/Config/Request.php" />
+        <option value="$PROJECT_DIR$/../Aplicaciones-Web/Views/Template.php" />
+        <option value="$PROJECT_DIR$/../Aplicaciones-Web/Views/login/index.php" />
+        <option value="$PROJECT_DIR$/Views/login/index.php" />
+        <option value="$PROJECT_DIR$/Views/Empleado_bienvenido/index.php" />
+        <option value="$PROJECT_DIR$/Public/css/style.css" />
+        <option value="$PROJECT_DIR$/../AplicacionesWeb701/index.php" />
+        <option value="$PROJECT_DIR$/AppData/Model/Actividades.php" />
+        <option value="$PROJECT_DIR$/Views/Actividades/index.php" />
+        <option value="$PROJECT_DIR$/Views/Actividades/tabla.php" />
+        <option value="$PROJECT_DIR$/AppData/Model/Actividadesdeportivas.php" />
+        <option value="$PROJECT_DIR$/Views/inicio/index.php" />
+        <option value="$PROJECT_DIR$/AppData/Controller/actividadesdeportivasController.php" />
+        <option value="$PROJECT_DIR$/AppData/Model/conexion.php" />
+        <option value="$PROJECT_DIR$/Views/Actividadesrecreativas/consulta.php" />
+        <option value="$PROJECT_DIR$/../Gestion_proyectos/index.php" />
+        <option value="$PROJECT_DIR$/AppData/Config/Request.php" />
+        <option value="$PROJECT_DIR$/Views/Template.php" />
+        <option value="$PROJECT_DIR$/AppData/Config/Enrutador.php" />
+        <option value="$PROJECT_DIR$/Views/Actividadesrecreativas/modificar.php" />
+        <option value="$PROJECT_DIR$/Views/Actividadesrecreativas/index.php" />
+        <option value="$PROJECT_DIR$/AppData/Controller/actividadesrecreativasController.php" />
+        <option value="$PROJECT_DIR$/AppData/Model/Actividadesrecreativas.php" />
+        <option value="$PROJECT_DIR$/Views/Actividadesrecreativas/tabla.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="31" />
+    <option name="y" value="67" />
+    <option name="width" value="1296" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HP_M" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HP_M" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HP_M" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HP_M" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppData" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HP_M" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HP_M" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AppData" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HP_M" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HP_M" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="HP_M" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HP_M" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Actividadesrecreativas" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Turismo-DG" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\HP_M\Views\Actividadesrecreativas" />
+      <recent name="C:\xampp\htdocs\HP_M\Views" />
+      <recent name="C:\xampp\htdocs\HP_M\AppData\Model" />
+      <recent name="C:\xampp\htdocs\HP_M\AppData\Controller" />
+      <recent name="C:\xampp\htdocs\HP_M\Public\imagenes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1be0f8a4-5126-483a-b9d4-8cb93d772ec4" name="Default" comment="" />
+      <created>1539468856305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539468856305</updated>
+      <workItem from="1539468857734" duration="13973000" />
+      <workItem from="1539542892961" duration="3500000" />
+      <workItem from="1539548327880" duration="1219000" />
+      <workItem from="1539605132555" duration="1027000" />
+      <workItem from="1539784078220" duration="633000" />
+      <workItem from="1539961136706" duration="751000" />
+      <workItem from="1539989948055" duration="7792000" />
+      <workItem from="1540078281022" duration="2292000" />
+      <workItem from="1540084747939" duration="1899000" />
+      <workItem from="1540211013279" duration="3917000" />
+      <workItem from="1540311365640" duration="603000" />
+      <workItem from="1540315744419" duration="2029000" />
+      <workItem from="1540383749192" duration="4718000" />
+      <workItem from="1540410010233" duration="5888000" />
+      <workItem from="1540522502127" duration="707000" />
+      <workItem from="1546755272646" duration="8969000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="61922000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21815519" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Public/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Aplicaciones-web/Views/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="78" column="8" lean-forward="false" selection-start-line="78" selection-start-column="8" selection-end-line="85" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Aplicaciones-web/Views/login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/bootstrap-4.1.3/site/docs/4.1/examples/dashboard/index.html" />
+    <entry file="file://$PROJECT_DIR$/Views/login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notas.md" />
+    <entry file="file://$PROJECT_DIR$/Views/Empleado_bienvenido/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Empleado_bienvenido/tabla.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AplicacionesWeb701/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AplicacionesWeb701/AppData/Config/Enrutador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppData/Model/Actividadesdeportivas.php" />
+    <entry file="file://$PROJECT_DIR$/Views/Actividadesdeportivas/tabla.php" />
+    <entry file="file://$PROJECT_DIR$/Views/Actividadesdeportivas/index.php" />
+    <entry file="file://$PROJECT_DIR$/Views/inicio/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="59" column="99" lean-forward="true" selection-start-line="59" selection-start-column="99" selection-end-line="59" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppData/Controller/loginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppData/Controller/actividadesdeportivasController.php" />
+    <entry file="file://$PROJECT_DIR$/AppData/Model/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="97" lean-forward="false" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/camara_ip/camara_ip.sql" />
+    <entry file="file://$USER_HOME$/Desktop/camara_ip/login.php" />
+    <entry file="file://$USER_HOME$/Desktop/camara_ip/camara1.php" />
+    <entry file="file://$USER_HOME$/Desktop/camara_ip/navbar.php" />
+    <entry file="file://$PROJECT_DIR$/../camara_ip/camara1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Gestion_proyectos/AppData/Model/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Gestion_proyectos/Views/login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="74" lean-forward="true" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Gestion_proyectos/Views/Formato/crear.php" />
+    <entry file="file://$PROJECT_DIR$/../Gestion_proyectos/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Gestion_proyectos/Views/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Gestion_proyectos/Views/Formato/index.php" />
+    <entry file="file://$PROJECT_DIR$/../Gestion_proyectos/AppData/Config/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1236">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Gestion_proyectos/AppData/Config/Enrutador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Gestion_proyectos/AppData/Config/Autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Gestion_proyectos/AppData/Controller/loginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppData/Config/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="59" column="74" lean-forward="false" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="59" column="124" lean-forward="false" selection-start-line="59" selection-start-column="124" selection-end-line="59" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyecto_comision/subirpdf/test.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-689">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyecto_comision/subirpdf/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-811">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../subirpdf/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyecto_comision/subirpdf/archivos/0580fcea-fdf4-42f1-ae51-75b834822aa6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyecto_comision/subirpdf/archivo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyecto_comision/subirpdf/lista.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Actividadesrecreativas/consulta_1.php" />
+    <entry file="file://$PROJECT_DIR$/AppData/Config/Autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppData/Config/Enrutador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Actividadesrecreativas/modificar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="120" lean-forward="false" selection-start-line="69" selection-start-column="120" selection-end-line="69" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppData/Controller/actividadesrecreativasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppData/Model/Actividadesrecreativas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="63" column="323" lean-forward="false" selection-start-line="63" selection-start-column="323" selection-end-line="63" selection-end-column="323" />
+          <folding>
+            <marker date="1546764030107" expanded="true" signature="637:955" ph="insert into $... " />
+            <marker date="1546764030107" expanded="true" signature="1102:1150" ph="delete from $... " />
+            <marker date="1546764030107" expanded="true" signature="1248:1286" ph="select * fro... datos" />
+            <marker date="1546764030107" expanded="true" signature="1423:1474" ph="select * fro... $" />
+            <marker date="1546764030107" expanded="true" signature="1665:1972" ph="update $... " />
+            <marker date="1546764030107" expanded="true" signature="1671:1972" ph="insert into $... " />
+            <marker date="1546764030107" expanded="true" signature="2112:2172" ph="select * fro... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Actividadesrecreativas/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="82" lean-forward="true" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Actividadesrecreativas/tabla.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+          <folding>
+            <marker date="1546764052093" expanded="true" signature="96:140" ph="..." />
+            <marker date="1546764052093" expanded="true" signature="126:139" ph="..." />
+            <marker date="1546764052093" expanded="true" signature="332:1114" ph="..." />
+            <marker date="1546764052093" expanded="true" signature="332:1131" ph="..." />
+            <marker date="1546764052093" expanded="true" signature="332:1146" ph="..." />
+            <marker date="1546764052093" expanded="true" signature="809:904" ph="..." />
+            <marker date="1546764052093" expanded="true" signature="809:984" ph="..." />
+            <marker date="1546764052093" expanded="true" signature="809:1063" ph="..." />
+            <marker date="1546764052093" expanded="true" signature="809:1114" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
