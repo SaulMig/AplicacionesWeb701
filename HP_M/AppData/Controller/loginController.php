@@ -51,6 +51,13 @@ class loginController
     public function logout()
         {
             session_destroy();
-           // header("Location:".URL);
+//            header("Location:".URL);
+        ?>
+
+        <script type="text/javascript">
+            window.location.href = "<?php echo URL?>";
+        </script>
+<?php
+
         }
 }

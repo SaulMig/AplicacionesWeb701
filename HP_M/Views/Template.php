@@ -163,7 +163,7 @@ class Template
                             </li>
 
                             <li>
-                                <a href="<?php echo URL ?>">Actividades Deportivas</a>
+                                <a href="<?php echo URL ?>Actividadesdeportivas">Actividades Deportivas</a>
                             </li>
 
                             <li>

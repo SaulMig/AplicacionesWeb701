@@ -35,7 +35,14 @@ class Request
                 if (!$this->metodo)
                     $this->metodo = "index";
                 $this->argumento = $ruta;
-            }else {
+            }else if (isset($_GET['url'])?stristr($_GET['url'],'Actividadesdeportivas'):false)
+            {
+                $this->controlador="Actividadesdeportivas";
+
+                $this->metodo=stristr($_GET['url'],'consulta_1')?"consulta_1":"index";
+            }
+
+            else {
                 $this->controlador = "empleado_bienvenido";
                 $this->metodo = "index";
             }
@@ -59,12 +66,25 @@ class Request
 
               $this->metodo=stristr($_GET['url'],'consulta_1')?"consulta_1":"index";
           }
+
+          //////////////////////
+          ///
+          ///
+
         else
         {
             $this->controlador="inicio";
             $this->metodo = "index";
 
         }
+
+
+
+
+
+////
+
+
 
     }
     public function getControlador()

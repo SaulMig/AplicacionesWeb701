@@ -6,7 +6,7 @@
 
 
 
-    define('URL',"http://localhost/HP_M/");
+    define('URL',"http://localhost/AplicacionesWeb701/HP_M/");
 
 
 
